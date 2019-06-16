@@ -1,0 +1,24 @@
+{
+  "name": "lloyds-of-londong-clone",
+  "version": "1.0.0",
+  "description": "clone of lloyds of london \"Taking Control\" page as part of Chingu",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TishG/lloyds-of-london-clone.git"
+  },
+  "author": "Tish G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TishG/lloyds-of-london-clone/issues"
+  },
+  "homepage": "https://github.com/TishG/lloyds-of-london-clone#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

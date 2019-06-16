@@ -131,12 +131,18 @@ input#search {
   text-decoration: none;
 }
 
-#bottom-navbar p:hover {
+/* #bottom-navbar p:hover {
+  text-decoration: underline;
+  background-color: #f1f1f1;
+  color: #262626;
+} */
+
+.active:hover{
   text-decoration: underline;
   background-color: #f1f1f1;
   color: #262626;
 }
-#active-bn-item {
+.active-bn-item {
   background-color: #dfe0e6;
   color: #282f54;
 }
@@ -154,6 +160,12 @@ input#search {
 }
 .submenu-container {
   padding: 0px 25px;
+}
+
+#submenu-1:hover .active-bn-item {
+  text-decoration: underline;
+  background-color: #f1f1f1;
+  color: #262626;
 }
 
 hr {
