@@ -217,13 +217,19 @@ hr {
   padding: 0px 14px;
 }
 
+#main-header p {
+  position: relative;
+  top: 10px;
+}
+
 #main-header-content #header-title {
   font-weight: bold;
   color: #262626;
   font-size: 48px;
 }
 
-#main-header-content div:nth-child(2) {
+#main-header-content div:last-child {
+  margin-top: 35px;
   height: 158.5px;
   display: flex;
   flex-direction: column;
@@ -233,6 +239,7 @@ hr {
 
 .fa-share-alt {
   padding: 0px 10px;
+  font-size: 16px;
 }
 
 #header-share a {
@@ -240,10 +247,9 @@ hr {
   color: #0a4bb7;
   font-size: 14px;
   font-weight: bold;
-}
-
-.fa-share-alt {
-  font-size: 16px;
+  position: relative;
+  top: -5px;
+  left: 5px;
 }
 
 #header-share:hover {
@@ -256,8 +262,7 @@ hr {
   margin: 0 auto;
 }
 
-.main-container-text,
-p {
+.main-container-text, .report {
   font-size: 14px;
   line-height: 22px;
 }
