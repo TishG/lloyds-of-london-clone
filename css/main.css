@@ -208,9 +208,14 @@ hr {
 }
 
 #main-header-content div:first-child {
-  padding-top: 21px;
+  padding-top: 28px;
   color: #909090;
   font-size: 14px;
+}
+
+#main-header-content div:first-child a {
+  color: #909090;
+  text-decoration: none;
 }
 
 #main-header-content span {
@@ -230,7 +235,7 @@ hr {
 }
 
 #main-header-content div:last-child {
-  margin-top: 35px;
+  margin-top: 25px;
   height: 158.5px;
   display: flex;
   flex-direction: column;
