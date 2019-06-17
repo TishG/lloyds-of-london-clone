@@ -64,9 +64,10 @@ nav {
 #top-navbar .nav-br a,
 #last-nav-item a {
   padding: 0px 12px;
+  padding-top: 4px;
   color: #141414;
   text-decoration: none;
-  height: 14px;
+  height: 10px;
 }
 
 #top-navbar p a:hover {
