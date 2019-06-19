@@ -163,6 +163,10 @@ input#search {
   padding: 0px 25px;
 }
 
+.submenu-container p {
+  font-weight: bold;
+}
+
 #submenu-1:hover .active-bn-item {
   text-decoration: underline;
   background-color: #f1f1f1;
